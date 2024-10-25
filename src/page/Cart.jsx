@@ -52,7 +52,7 @@ function Cart() {
       credentials: 'include', // This ensures cookies are sent along with the request
       headers: {
         'Content-Type': 'application/json',
-        // Include any other headers if necessary (e.g., Authorization)
+        Authorization: `Bearer ${token}`,
       }
     })
       .then(response => {
