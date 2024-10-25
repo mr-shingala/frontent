@@ -24,7 +24,7 @@ const Desci = ({ course }) => {
   const [linecamp1, setLinecamp1] = useState(false);
   const [linecamp2, setLinecamp2] = useState(false);
   let totalItems = useSelector(state => state.cart.totalItems)
-
+  const token1 = useSelector((state) => state.auth.token);
   //  console.log(Object.values(course?.instructor?.about[1]))
   //console.log(course?.instructor?.about[0][0]['education'])
 
@@ -64,6 +64,7 @@ const Desci = ({ course }) => {
         credentials: "include",
         headers: {
           "Content-Type": "application/json",
+          Authorization: `Bearer ${token1}`,
         },
         body: JSON.stringify({
           courseId: id,
