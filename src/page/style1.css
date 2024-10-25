@@ -1,0 +1,383 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("../assets/Indie_Flower/IndieFlower-Regular.ttf");
+}
+.boxshadow{
+ box-shadow: 0px -3px 0px 0px rgba(255, 255, 255, 0.18) inset;
+
+}
+.boxshadow1{
+ box-shadow: 29px 28px 0px -13px rgba(255,255,255,0.65);
+ -webkit-box-shadow: 29px 28px 0px -13px rgba(255,255,255,0.65);
+ -moz-box-shadow: 29px 28px 0px -13px rgba(255,255,255,0.65)
+}
+
+.boxshadow2{
+ box-shadow: -2px -2px 0px 0px #FFFFFF82 inset;
+}
+
+.boxshadow3{
+ box-shadow: -2px -2px 0px 0px #FFFFFF2E inset;
+}
+
+.gradient1{
+ background-clip: text;
+ background-image: linear-gradient(118.19deg, #1FA2FF -3.62%, #12D8FA 50.44%, #A6FFCB 104.51%);
+ color: transparent;
+}
+.gradient2{
+ background: linear-gradient(117.82deg, #9CECFB -9.12%, #65C7F7 48.59%, #0052D4 106.3%);
+}
+.gradient3{
+  background: linear-gradient(117.52deg, #5433FF -4%, #20BDFF 51.26%, #A5FECB 106.52%);
+  color: transparent;
+  background-clip: text;
+}
+
+.boxshadow5:before {
+  content:"";
+  position: absolute;
+  border-radius: 100%;
+  height: 50px;
+  width: 150%;
+  bottom: -41px;
+  transform: translate(-20px,52px);
+  z-index: 10;
+  background: linear-gradient(117.82deg, #9CECFB -9.12%, #65C7F7 48.59%, #0052D4 106.3%);
+  filter: blur(35px); 
+}
+
+.animation::before{
+  content:"";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(111.93deg, rgba(14, 26, 45, 0.24) -1.4%, rgba(17, 30, 50, 0.38) 104.96%);
+  top: 0;
+  z-index: 20;
+}
+.animation{
+  border: 1px solid;
+  border-image-source: linear-gradient(121.74deg, rgba(255, 255, 255, 0.22) -7.75%, rgba(255, 255, 255, 0) 37.38%);
+}
+
+
+.animation::after{
+  content:"";
+  position: absolute;
+  height: 257.05px;
+  width: 372.95px;
+  border-radius: 100%;
+  filter: blur(50px);
+  top: 40px;
+  left: -50px;
+  background: linear-gradient(123.77deg, #8A2BE2 -6.46%, #FFA500 59.04%, #F8F8FF 124.53%);
+  opacity:0.6;
+  top: 0;
+  /* z-index: 50; */
+}
+.boxshadow6{
+  box-shadow: 12px 12px 0px 0px #FFD60A;
+}
+.boxshadow7{
+  box-shadow: 20px 20px 0px 0px #FFFFFF;
+  z-index: 10;
+}
+.boxshadow7::before{
+  content:"";
+  position: absolute;
+  width: 120%;
+  height: 100%;
+  border-radius: 100%;
+  filter: blur(40px);
+  background: linear-gradient(117.82deg, #9CECFB -9.12%, #65C7F7 48.59%, #0052D4 106.3%);
+  opacity:0.7;
+  left: -70px;
+  z-index: -10;
+  top: 20px;
+}
+.bg-image{
+  background-image: url("https://res.cloudinary.com/dlgm6g3gn/image/upload/v1728965505/bghome_zilak8.svg"); 
+  height: 300px;
+}
+.boxshadow8{
+  box-shadow: 0px 0px 62px 0px #0000001F;
+
+}
+.boxshadow9{
+  box-shadow: -20px -20px 0px 0px #1f2937;
+}
+.parent:hover .child{
+  transform: rotate(20deg);
+}
+.parent:hover .child2{
+  transform: scale(1.1);;
+}
+.toast-error {
+  background-color: red !important;
+  color: white !important;
+}
+.toast-success {
+  background-color: green !important;
+  color: white !important;
+}
+
+.height{
+   background-color: #0052D4;
+   height: calc(100vh - 64px);
+}
+.boxshadow10{
+  box-shadow: 0px -1px 0px 0px #FFFFFF2E inset;
+
+}
+
+
+.gradient4{
+  background: linear-gradient(117.95deg, #833AB4 -2.4%, #FD1D1D 52.25%, #FCB045 106.89%);
+  color: transparent;
+  background-clip: text;
+}
+
+.gradient5{
+  background: linear-gradient(118.41deg, #E65C00 -6.05%, #F9D423 106.11%);
+  color: transparent;
+  background-clip: text;
+}
+
+.gradient6{
+  background: linear-gradient(118.19deg, #1FA2FF -3.62%, #12D8FA 50.44%, #A6FFCB 104.51%);
+  color: transparent;
+  background-clip: text;
+}
+.my{
+  font-family: CustomFont;
+  font-size: 20px;
+  border: 2px solid gainsboro;
+  border-radius: 6px;
+  background-color: rgba(1, 1, 1, 0.750);
+}
+
+.videoAnimation::after{
+  content:"";
+  position: absolute;
+  height: 50%;
+  width: 80%;
+  border-radius: 100%;
+  filter: blur(50px);
+  background: linear-gradient(123.77deg, #892be2 -6.46%, #ffa600 59.04%, #f8f8ff 124.53%);
+  top: 0px;
+  left: 50px;
+  z-index: -20;
+}
+
+.numberanimation{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  /* background: red; */
+  animation-name: numbermove;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+ 
+}
+@keyframes numbermove {
+  from {transform: translateY(-100%);}
+  to {transform: translateY(0%);}
+}
+.number{
+  appearance: none;
+   display: flex;
+   background-color: #161d29;
+   padding-left: 10px;
+   border-radius: 6px;
+   gap:10px;
+
+}
+.number input:focus{
+   border: 2px solid #eea015;
+}
+
+.number input{
+  background-color: #161d29;
+  outline: none;
+  padding: 12px;
+  border-radius: 6px;
+  color: rgb(211, 210, 210);
+}
+
+.number option{
+  color: black;
+  border: 1px solid goldenrod;
+}
+
+.phoneInputCountrySelect{
+   background-color: #5433FF;
+}
+
+.PhoneInputCountrySelectArrow{
+     font-size: 20px;
+     font-weight: bold;
+     color: white;
+}
+/* 
+
+===================================================== */
+.number2{
+   appearance: none;
+   display: flex;
+   background-color: rgb(55, 65, 81);
+   padding-left: 10px;
+   border-radius: 6px;
+   gap:10px;
+
+}
+
+.number2 input{
+  background-color: rgb(55, 65, 81);
+  outline: none;
+  padding: 8px 8px;
+  border-radius: 6px;
+  color: rgb(209, 213, 219);
+}
+
+.number2 option{
+  color: rgb(209, 213, 219);
+  background-color: rgb(55, 65, 81);
+}
+
+
+
+/* ============================================ */
+
+input[type=radio]{
+  appearance: none;
+  border-radius: 50%;
+  background-clip: content-box;
+  border: 2px solid #374151;
+  /* background-color: ; */
+}
+input[type="radio"]:checked {
+  background-color: yellow;
+  padding: 4px;
+  border: 2px solid darkgoldenrod
+}
+
+.step2 input[type='checkbox'],.step3 input[type='checkbox']{
+  appearance: none;
+  background-clip: content-box;
+  background-color: rgb(113 113 122);
+  position: relative;
+  
+}
+
+
+.step2 input[type="checkbox"]:checked::before {
+  content: '';
+  background-image: url('https://res.cloudinary.com/dlgm6g3gn/image/upload/v1728965565/swords_reyo8n.png');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(55 65 81);
+  position: absolute;
+}
+
+.step3 input[type="checkbox"]:checked::before {
+  content: '';
+  background-image: url('https://res.cloudinary.com/dlgm6g3gn/image/upload/v1728965565/swords_reyo8n.png');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-color: #161D29;
+  position: absolute;
+}
+
+
+/* ========================================================= */
+
+.ep input[type="file"]::file-selector-button {
+  border: 1px solid gray;
+  background-color: rgb(250, 204, 21);
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+    input[type="number"] {
+      appearance: textfield; /* Standard property */
+      -webkit-appearance: none; /* For WebKit-based browsers like Chrome and Safari */
+      -moz-appearance: textfield; /* For Firefox */
+  }
+
+
+div.swiper-button-prev,div.swiper-button-next{
+   background-color: rgb(55,65,81);
+   padding: 25px;
+   border-radius: 100%;
+   border: 2px solid gray;
+   position: absolute;
+   top: 30%;
+   /* right: 20px; */
+}
+@media (width <= 600px) {
+  div.swiper-button-prev,div.swiper-button-next{
+ 
+    padding: 20px;
+
+  
+ }
+}
+
+.swiper-slide{
+   padding: 0px;
+}
+
+
+div.swiper-button-prev::after,div.swiper-button-next::after{
+  color: white;
+  font-size: 20px;
+}
+/* 
+============================================= */
+
+@keyframes open {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+/* =================================================================== */
+.my-scrollable-div::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.my-scrollable-div {
+  scrollbar-width: none; /* Firefox */
+}
+
+/* //================================================================== */
+/* class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal" */
+.swiper-pagination-bullet {
+  background: gray !important ; /* Custom bullet color */
+  padding: 5px;
+}
+
+.swiper-pagination-bullet-active {
+  background: yellow !important ; /* Custom active bullet color */
+}
+
+/* div.swiper-slide { max-width: 384px !important; } */
+/* @media (width <= 1240px) {
+   div.swiper-slide { width: 45% !important;} 
+} */

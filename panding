@@ -1,0 +1,31 @@
+check delete account after 5 days
+prevent request from it from signup and logout
+     --> careact block list and add student id on block list validation when user enter the data
+upload cancel button edit profile image update section 
+
+--> protected rourte
+
+video 8 
+--> create 'Enroll course section'  --> http://localhost:3000/api/v1/getEnrolledCourses
+--> ramanonack react progress bar
+
+--> create wishlist (add to cart page) , getAvgrating api used
+--> react stare componenets
+--> create my course page   H.W
+
+
+video 9 in lec 1
+
+--> delete account
+--> reverse --> redux store data lailaies show karavsis 
+--> my profile --> store redux ma id fleg true --> if  fleg true  id fech req (loading) --> data show
+--> flase? --> update button na lastma 
+--> canse button --> update false 
+
+addcourse(folder) --> index.jsx -->  
+
+
+-->session expire
+--> add validation on delete lecture
+--> pop message
+
